@@ -23,26 +23,13 @@ export default function Navbar() {
           <div className="collapse navbar-collapse" id="navbarResponsive">
             <ul className="navbar-nav ms-auto py-4 py-lg-0">
               <li className="nav-item">
-                <a className="nav-link px-lg-3 py-3 py-lg-4" href="index.html">
+                <a className="nav-link px-lg-3 py-3 py-lg-4" href="/">
                   Home
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link px-lg-3 py-3 py-lg-4" href="about.html">
-                  About
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link px-lg-3 py-3 py-lg-4" href="post.html">
-                  Sample Post
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  className="nav-link px-lg-3 py-3 py-lg-4"
-                  href="contact.html"
-                >
-                  Contact
+                <a className="nav-link px-lg-3 py-3 py-lg-4" href="/login">
+                  Login
                 </a>
               </li>
             </ul>
